@@ -2,27 +2,27 @@
 session_start();
 // products array
 $products = array(
-    array(
+    'football' => array(
         'img' => "./images/football.png",
         'title' => "Football",
         'price' => 150.00
     ),
-    array(
+    'tennis' => array(
         'img' => "./images/tennis.png",
         'title' => "Tennis",
         'price' => 120.00
     ),
-    array(
+    'basketball' => array(
         'img' => "./images/basketball.png",
         'title' => "Basketball",
         'price' => 90.00
     ),
-    array(
+    'table-tennis' => array(
         'img' => "./images/table-tennis.png",
         'title' => "Table-tennis",
         'price' => 110.00
     ),
-    array(
+    'soccer' => array(
         'img' => "./images/soccer.png",
         'title' => "Soccer",
         'price' => 80.00
